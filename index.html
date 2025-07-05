@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon Cyber Calculator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Sparkling Background -->
+    <div class="sparkles" id="sparkles"></div>
+
+    <!-- Calculator History Story -->
+    <button class="history-toggle" id="historyToggle">Show History</button>
+    <div class="history-story" id="historyStory">
+        <h3>Calculation History</h3>
+        <ul id="historyList"></ul>
+    </div>
+
+    <!-- Calculator -->
+    <div class="calculator-container">
+        <div class="power-light"></div>
+        <div class="brand">
+            <span class="logo">NEON</span>
+            <span class="model">CALC-X9000</span>
+        </div>
+        <div class="display">
+            <div class="history" id="currentHistory"></div>
+            <div class="current-input" id="currentInput">0</div>
+        </div>
+        <div class="buttons">
+            <button class="btn operator" data-value="AC">AC</button>
+            <button class="btn operator" data-value="±">±</button>
+            <button class="btn operator" data-value="%">%</button>
+            <button class="btn operator" data-value="/">÷</button>
+            
+            <button class="btn" data-value="7">7</button>
+            <button class="btn" data-value="8">8</button>
+            <button class="btn" data-value="9">9</button>
+            <button class="btn operator" data-value="*">×</button>
+            
+            <button class="btn" data-value="4">4</button>
+            <button class="btn" data-value="5">5</button>
+            <button class="btn" data-value="6">6</button>
+            <button class="btn operator" data-value="-">−</button>
+            
+            <button class="btn" data-value="1">1</button>
+            <button class="btn" data-value="2">2</button>
+            <button class="btn" data-value="3">3</button>
+            <button class="btn operator" data-value="+">+</button>
+            
+            <button class="btn zero" data-value="0">0</button>
+            <button class="btn" data-value=".">.</button>
+            <button class="btn operator equals" data-value="=">=</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

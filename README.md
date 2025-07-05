@@ -3,10 +3,13 @@ Check here the Project Output:
 https://calculator-web-page-deepika.netlify.app/
 
 ✨ Neon Cyber Calculator Web Application
+
 📌 Project Description:
+
 The Neon Cyber Calculator is a futuristic and interactive calculator built using HTML, CSS, and JavaScript. Inspired by cyberpunk aesthetics, it features a glowing neon UI with advanced visual feedback, smooth animations, and a persistent calculation history.
 
 🔧 Features:
+
  Basic Arithmetic Operations
 ⇒ Perform addition, subtraction, multiplication, and division with intuitive operator buttons.
 
